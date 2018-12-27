@@ -1,8 +1,7 @@
 
 package Control;
 
-import Model.Cliente;
-import View.ExibeCliente;
+import View.Menu;
 
 /**
  *
@@ -10,14 +9,14 @@ import View.ExibeCliente;
  */
 
 
-public class mainCRUD {
+public class main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ExibeCliente myFrame = new ExibeCliente();
+        Menu myFrame = new Menu();
         myFrame.setVisible(true);  
          
         
